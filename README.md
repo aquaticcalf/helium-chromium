@@ -11,9 +11,14 @@ If you don't like it - you don't like it, that's totally okay, and we don't care
 There's a lot more to Helium, but we don't have a complete set of features yet.
 We'll update the documentation when we're closer to a public release!
 
-## Platform-specific packaging
-At the moment, we're only working on [Helium for macOS](https://github.com/imputnet/helium-macos).
-We plan to create packaging for Windows & Linux systems in the future, but that's over the horizon for now.
+## Platform support
+Helium supports Linux and macOS systems.
+
+### Platform-specific packaging
+Currently available:
+- [Helium for macOS](https://github.com/imputnet/helium-macos)
+
+We plan to create packaging for Windows systems in the future, but that's over the horizon for now.
 
 ## Credits
 ### ungoogled-chromium

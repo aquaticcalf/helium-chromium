@@ -25,7 +25,7 @@
  // static
  std::string UpdateQueryParams::Get(ProdId prod) {
 +  if (prod == CRX_DUMMY) {
-+    return "os=win&arch=x64&os_arch=x86_64&nacl_arch=x86-64&prod=chromecrx&acceptformat=crx3,puff";
++    return base::StringPrintf("os=%s&arch=%s&os_arch=%s&nacl_arch=%s&prod=chromecrx&acceptformat=crx3,puff", kOs, kArch, base::SysInfo().OperatingSystemArchitecture().c_str(), kNaclArch);
 +  }
 +
    return base::StringPrintf(
